@@ -263,10 +263,10 @@ const YourComponent = () => {
             className={styles.paragraph}
             style={{ opacity: 0, position: "relative" }}
           >
-            I'm Himalaya : a versatile frontend developer proficient in ReactJS,
-            React Native, Next.js and more. With a strong focus on creating
-            exceptional UI,UX across web and mobile platforms. I excel in
-            collaborating with cross-functional teams to deliver high-quality
+            I &apos; m Himalaya : a versatile frontend developer proficient in
+            ReactJS, React Native, Next.js and more. With a strong focus on
+            creating exceptional UI,UX across web and mobile platforms. I excel
+            in collaborating with cross-functional teams to deliver high-quality
             products. My expertise extends to building responsive interfaces,
             optimizing performance, and ensuring seamless navigation. Beyond
             skills, I am dedicated to continuous learning and staying updated
@@ -373,11 +373,11 @@ const YourComponent = () => {
           <div className={styles.paramob}>
             <p className={styles.heading1}>
               I recently developed a modern React Native to-do app that features
-              a sleek and intuitive design inspired by Apple's renowned design
-              aesthetics. The app leverages advanced React Native components to
-              create a seamless user experience across both iOS and Android
-              platforms. Using the emulator on my device, I was able to
-              rigorously test and fine-tune the UI/UX to ensure smooth
+              a sleek and intuitive design inspired by Apple &apos; s renowned
+              design aesthetics. The app leverages advanced React Native
+              components to create a seamless user experience across both iOS
+              and Android platforms. Using the emulator on my device, I was able
+              to rigorously test and fine-tune the UI/UX to ensure smooth
               performance and responsiveness. The app includes features like
               state management with Redux, real-time synchronization, and
               elegant animations that enhance usability. Its clean interface,
