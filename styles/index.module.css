@@ -9,8 +9,9 @@
 } */
 
 .bodyContainer {
-  padding: 0 auto;
-  margin: 0 auto;
+  padding: 100 auto;
+  margin: 100 auto;
+
   box-sizing: border-box;
   /* background-color: rgb(0, 0, 0);  */
   scroll-behavior: smooth;
@@ -19,7 +20,7 @@
   display: flex;
   justify-content: center;
   /* height: auto;   */
-  background-image: url(/black.jpeg);
+  background-image: url(/black.png);
   color: #f2f2f2;
 }
 
