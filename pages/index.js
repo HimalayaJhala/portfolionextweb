@@ -334,120 +334,124 @@ const YourComponent = () => {
             </div>
           </div>
         </div>
+        <div className="mt-[30rem] flex flex-col items-center justify-evenly">
+          <div className=" bg-lime-400 w-[40rem] h-[15rem]  rounded-[3rem] text-[6rem]  flex justify-center ">
+            Projects
+          </div>
+          <div className={styles.Firstbox}>
+            <div className={styles.playerwrapper1}>
+              <Image
+                className={styles.iphone}
+                src="/iPhone15.png"
+                alt="phone"
+                width={352}
+                height={650}
+              />
+              {isClient && (
+                <div
+                  className={styles.Rplayer}
+                  style={{
+                    width: "350px",
+                    height: "590px",
+                    position: "relative",
+                    overflow: "hidden",
+                    top: "32px",
+                  }}
+                >
+                  <ReactPlayer
+                    className="react-player"
+                    url="/Screen1.mp4"
+                    width="355px"
+                    height="590px"
+                    playing={true}
+                    loop={true}
+                    controls={false}
+                    muted={true}
+                  />
+                </div>
+              )}
+            </div>
 
-        <div className={styles.Firstbox}>
-          <div className={styles.playerwrapper1}>
-            <Image
-              className={styles.iphone}
-              src="/iPhone15.png"
-              alt="phone"
-              width={352}
-              height={650}
-            />
-            {isClient && (
-              <div
-                className={styles.Rplayer}
-                style={{
-                  width: "350px",
-                  height: "590px",
-                  position: "relative",
-                  overflow: "hidden",
-                  top: "32px",
-                }}
-              >
-                <ReactPlayer
-                  className="react-player"
-                  url="/Screen1.mp4"
-                  width="355px"
-                  height="590px"
-                  playing={true}
-                  loop={true}
-                  controls={false}
-                  muted={true}
-                />
-              </div>
-            )}
+            <div className={styles.paramob}>
+              <p className={styles.heading1}>
+                I recently developed a modern React Native to-do app that
+                features a sleek and intuitive design inspired by Apple renowned
+                design aesthetics. The app leverages advanced React Native
+                components to create a seamless user experience across both iOS
+                and Android platforms. Using the emulator on my device, I was
+                able to rigorously test and fine-tune the UI/UX to ensure smooth
+                performance and responsiveness. The app includes features like
+                state management with Redux, real-time synchronization, and
+                elegant animations that enhance usability. Its clean interface,
+                combined with efficient functionality, offers users an appealing
+                and productive task management solution.
+              </p>
+            </div>
           </div>
 
-          <div className={styles.paramob}>
-            <p className={styles.heading1}>
-              I recently developed a modern React Native to-do app that features
-              a sleek and intuitive design inspired by Apple renowned design
-              aesthetics. The app leverages advanced React Native components to
-              create a seamless user experience across both iOS and Android
-              platforms. Using the emulator on my device, I was able to
-              rigorously test and fine-tune the UI/UX to ensure smooth
-              performance and responsiveness. The app includes features like
-              state management with Redux, real-time synchronization, and
-              elegant animations that enhance usability. Its clean interface,
-              combined with efficient functionality, offers users an appealing
-              and productive task management solution.
-            </p>
-          </div>
-        </div>
+          <div className={styles.laptopmove}>
+            <div className={styles.laptopdiv}>
+              <Image
+                className={styles.laptop}
+                src="/macbookp.png"
+                alt="laptop"
+                width={1284}
+                height={792}
+              />
+              {isClient && (
+                <div style={{ position: "absolute" }}>
+                  <ReactPlayer
+                    className={styles.reactplayer1}
+                    url="/Recording.mp4"
+                    width="960px"
+                    height="764px"
+                    playing={true}
+                    loop={true}
+                    controls={false}
+                    muted={true}
+                    // style={{borderRadius: '100px'}}
+                  />
+                </div>
+              )}
+            </div>
 
-        <div className={styles.laptopmove}>
-          <div className={styles.laptopdiv}>
-            <Image
-              className={styles.laptop}
-              src="/macbookp.png"
-              alt="laptop"
-              width={1284}
-              height={792}
-            />
-            {isClient && (
-              <div style={{ position: "absolute" }}>
-                <ReactPlayer
-                  className={styles.reactplayer1}
-                  url="/Recording.mp4"
-                  width="960px"
-                  height="764px"
-                  playing={true}
-                  loop={true}
-                  controls={false}
-                  muted={true}
-                  // style={{borderRadius: '100px'}}
-                />
-              </div>
-            )}
-          </div>
+            <div className={styles.laptopdiv1}>
+              <Image
+                className={styles.laptop1}
+                src="/macbookp.png"
+                alt="laptop"
+                width={380}
+                height={242}
+              />
+              {isClient && (
+                <div style={{ overflow: "hidden" }}>
+                  <ReactPlayer
+                    className={styles.reactplayer2}
+                    url="/Recording.mp4"
+                    width="285px"
+                    height="190px"
+                    playing={true}
+                    loop={true}
+                    controls={false}
+                    muted={true}
+                    playsInline
+                    // overflow={hidden}
+                  />
+                </div>
+              )}
+            </div>
 
-          <div className={styles.laptopdiv1}>
-            <Image
-              className={styles.laptop1}
-              src="/macbookp.png"
-              alt="laptop"
-              width={380}
-              height={242}
-            />
-            {isClient && (
-              <div style={{ overflow: "hidden" }}>
-                <ReactPlayer
-                  className={styles.reactplayer2}
-                  url="/Recording.mp4"
-                  width="285px"
-                  height="190px"
-                  playing={true}
-                  loop={true}
-                  controls={false}
-                  muted={true}
-                  playsInline
-                  // overflow={hidden}
-                />
-              </div>
-            )}
-          </div>
-
-          <div className={styles.laptoppara}>
-            <p className={styles.heading2}>
-              I created a UI/UX replica of Tinder specifically designed for
-              dogs, named Tindog. This project was developed using Bootstrap 5,
-              leveraging its powerful grid system and pre-styled components to
-              achieve a responsive and visually appealing interface. Utilizing
-              my basic core skills., I incorporated features like a carousel,
-              price tags, and many other elements, showcasing my ability to
-              create a comprehensive and delightful application.
-            </p>
+            <div className={styles.laptoppara}>
+              <p className={styles.heading2}>
+                I created a UI/UX replica of Tinder specifically designed for
+                dogs, named Tindog. This project was developed using Bootstrap
+                5, leveraging its powerful grid system and pre-styled components
+                to achieve a responsive and visually appealing interface.
+                Utilizing my basic core skills., I incorporated features like a
+                carousel, price tags, and many other elements, showcasing my
+                ability to create a comprehensive and delightful application.
+              </p>
+            </div>
           </div>
         </div>
       </div>
